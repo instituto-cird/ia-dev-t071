@@ -282,3 +282,11 @@ Ambos tracks comparten los mismos requisitos de CI, `AI_USAGE.md`, `DEMO_PLAN.md
 - [bandit — security linter](https://bandit.readthedocs.io/)
 - [pytest](https://docs.pytest.org/)
 - [ReAct pattern (paper)](https://arxiv.org/abs/2210.03629)
+
+
+## Autor/a
+
+
+**Nombre:** Antonio Benítez
+**Ciudad:** Pilar
+**Qué me gustaría construir en el programa:** Desarrollar aplicaciones web seguras y escalables, integrando inteligencia artificial para automatizar procesos y resolver problemas reales.
