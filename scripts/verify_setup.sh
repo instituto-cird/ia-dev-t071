@@ -143,9 +143,9 @@ check "Merchant lookup tool funciona"                                        "uv
 echo ""
 echo "${BLUE}7. Harness (ruff + mypy + bandit + pytest)${RESET}"
 check "ruff disponible"                                                      "uv run --frozen ruff --version"                                          "uv sync --all-groups"
-check "mypy disponible"                                                      "uv run --frozen mypy --version"                                          "uv sync --all-groups"
-check "bandit disponible"                                                    "uv run --frozen bandit --version"                                        "uv sync --all-groups"
-check "pytest pasa todos los tests"                                          "uv run --frozen pytest -q --tb=no"                                       "Ver la salida completa con: uv run --frozen pytest -v"
+check "mypy disponible"                                                      "uv run --frozen python -m mypy --version"                                          "uv sync --all-groups"
+check "bandit disponible"                                                    "uv run --frozen python -m bandit --version"                                        "uv sync --all-groups"
+check "pytest pasa todos los tests"                                          "uv run --frozen python -m pytest -q --tb=no"                                       "Ver la salida completa con: uv run --frozen pytest -v"
 
 # ─── 8. Git ───────────────────────────────────────────────────────────────────
 echo ""
