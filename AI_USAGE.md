@@ -33,17 +33,31 @@ Fuente: Feng, K. J. K., McDonald, D. W. y Zhang, A. X. (2025). *Levels of Autono
 
 | Campo | Detalle |
 |---|---|
-| Fecha | 2026-11-05 |
-| Herramienta | Visual Studio Code |
-| Nivel de autonomía | ninguno |
-| Para qué se usó | No se usó |
-| Qué hizo la IA |Nada|
-| Qué hubo que corregir o rehacer | nada |
+| Fecha | 2026-11-13 |
+| Herramienta | Claude Code (en Visual Studio Code) |
+| Nivel de autonomía | 1 operador |
+| Para qué se usó | Diagnosticar errores |
+| Qué hizo la IA | Sugirió a pedido cómo diagnosticar errores |
+| Qué hubo que corregir o rehacer | Nada |
 | Cómo se verificó | CI |
-| Qué decisión fue propia | Todo el trabajo fue propio |
-| Commit o PR | |
+| Qué decisión fue propia | Revisé las sugerencias y decidí qué cambios aplicar |
+| Commit o PR | #1 |
 
 <!-- Copiar el bloque de la entrada para cada nueva (001, 002…) -->
+
+### Entrada 001 · Lab 1 · Comparación de modelos
+
+| Campo | Detalle |
+|---|---|
+| Fecha | 2026-11-23 a 2026-11-26 |
+| Herramienta | Claude |
+| Nivel de autonomía | 2 colaborador |
+| Para qué se usó | Entender la consigna, verificar el estado del repositorio, guiar los comandos y redactar el borrador de DECISION.md |
+| Qué hizo la IA | Guió la instalación del kit y las corridas, leyó la consigna en Moodle, revisó VS Code y GitHub, propuso verificaciones y redactó el borrador |
+| Qué hubo que corregir o rehacer | La extracción del kit se rehízo porque no quedó en el repo; se repitieron comandos que fallaron al pegarlos en la terminal |
+| Cómo se verificó | CI local (ruff, mypy, bandit, pip-audit, 42 pruebas) y cifras contrastadas con resumen.md y los CSV |
+| Qué decisión fue propia | Revisé y acepté la regla de ruteo, incluida la decisión de no adoptar la cascada; ejecuté los comandos en mi equipo |
+| Commit o PR | PR del Lab 1, rama lab1/comparar-modelos |
 
 ---
 
