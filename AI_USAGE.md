@@ -49,11 +49,11 @@ Fuente: Feng, K. J. K., McDonald, D. W. y Zhang, A. X. (2025). *Levels of Autono
 
 | Campo | Detalle |
 |---|---|
-| Fecha | 2026-11-23 a 2026-11-26 |
+| Fecha | 2026-11-23 a 2026-11-27 |
 | Herramienta | Claude |
 | Nivel de autonomía | 2 colaborador |
 | Para qué se usó | Entender la consigna, verificar el estado del repositorio, guiar los comandos y redactar el borrador de DECISION.md |
-| Qué hizo la IA | Guió la instalación del kit y las corridas, leyó la consigna en Moodle, revisó VS Code y GitHub, propuso verificaciones y redactó el borrador |
+| Qué hizo la IA | Guió la instalación del kit y las corridas, leyó la consigna en Moodle, revisó VS Code y GitHub, propuso verificaciones y redactó el borrador; el 27-nov corrigió AI_USAGE.md según mis respuestas y, con mi autorización, creó el PR y envió su URL en Moodle |
 | Qué hubo que corregir o rehacer | La extracción del kit se rehízo porque no quedó en el repo; se repitieron comandos que fallaron al pegarlos en la terminal |
 | Cómo se verificó | CI local (ruff, mypy, bandit, pip-audit, 42 pruebas) y cifras contrastadas con resumen.md y los CSV |
 | Qué decisión fue propia | Revisé y acepté la regla de ruteo, incluida la decisión de no adoptar la cascada; ejecuté los comandos en mi equipo |
